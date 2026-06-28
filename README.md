@@ -1,58 +1,42 @@
-# Proposta Bevenutti × Osasco Express - FINAL PARA ENVIO
+# Proposta Bevenutti × Osasco Express - Final Glass iPhone
 
-Pacote blindado para envio à Bevenutti.
+Pacote final para publicação da proposta comercial da continuidade Bevenutti × Osasco Express.
 
-## Conteúdo da entrega
+## Conteúdo
 
-- `index.html` - proposta final premium.
-- `assets/` - imagens e arquivos visuais da proposta.
-- `contratos/contrato-bevenutti-osasco-express.pdf` - contrato oficial final em PDF.
+- `index.html` - página final da proposta.
+- `assets/` - imagens, ícones e arte de WhatsApp.
+- `contratos/contrato-bevenutti-osasco-express.pdf` - contrato final em PDF para conferência e assinatura.
+- `site.webmanifest` - configuração de ícone/app para mobile.
 
-## Contrato oficial
+## Ajuste comercial aplicado
 
-O contrato incluído foi copiado diretamente do arquivo enviado:
-`Contrato_Bevenutti_Osasco_Express_FORMATACAO_PROFISSIONAL_A4_DUPLEX_TEXTO_100_LITERAL.pdf`
+Esta versão mantém a essência da proposta, mas deixa a venda mais direta:
 
-Regras aplicadas:
-- PDF mantido 100% literal.
-- Sem conversão.
-- Sem reformatar.
-- Sem DOCX no pacote.
-- Botões da página: abrir PDF e baixar PDF.
-- Documento com 10 páginas, validado por renderização.
+- planos continuam visíveis sem accordion;
+- valores por uso continuam em accordion;
+- copy principal ficou menos defensiva e mais orientada à decisão;
+- detalhes operacionais sensíveis ficam concentrados no contrato PDF;
+- contrato permanece apenas em PDF para controle de versão;
+- acabamento glass/mobile-first mantido para iPhone.
+
+## Publicação
+
+Publicar todos os arquivos preservando a estrutura de pastas:
+
+```text
+/index.html
+/assets/
+/contratos/contrato-bevenutti-osasco-express.pdf
+/site.webmanifest
+```
 
 ## Validação técnica
 
-SHA256 do PDF original:
-8b8dc1296198a8b2d4c3ed22d3b75df0b25259314904e23c3f1465789c9b5a41
+Contrato PDF no pacote:
 
-SHA256 do PDF dentro do pacote:
-8b8dc1296198a8b2d4c3ed22d3b75df0b25259314904e23c3f1465789c9b5a41
+```text
+SHA256: 6c6577b5ec0e329716fbb85abcfbf08b15ff0d554699e6b2de25c664931e1c91
+```
 
-Os hashes iguais comprovam que o PDF do pacote é exatamente o arquivo oficial enviado.
-
-
-## Lapidação final aplicada
-
-- CTA final ajustado para "Confirmar continuidade da parceria".
-- Bloco do contrato reescrito em linguagem mais natural para cliente.
-- Menu com "Contrato" destacado.
-- Botões do contrato mantidos: Abrir PDF e Baixar PDF.
-- PDF oficial preservado no pacote.
-
-
-## Ajuste final de menu/copy
-
-- Removido o item "O que muda" do menu.
-- Seção reescrita como "Continuidade da parceria".
-- Texto ajustado para não parecer aviso de reajuste.
-- Contrato PDF oficial preservado.
-
-
-## Revisão de destaques
-
-- Removido 70% como destaque visual.
-- Parâmetro operacional passou para nota miúda.
-- Revisados cards de destaque para evitar exposição de números sensíveis.
-- Corrigida área em branco abaixo de papéis operacionais com seção compacta.
-- Menu enxugado para itens realmente necessários.
+Não há arquivo DOCX no pacote final.
