@@ -1,10 +1,10 @@
-# Proposta Bevenutti × Osasco Express — Versão Senior UX/UI
+# Proposta Bevenutti × Osasco Express — Premium Continuidade
 
-Refino aplicado:
-- Glassmorphism no hero, cards e blocos estratégicos.
-- Ritmo visual melhorado no desktop.
-- Mobile com leitura mais limpa e CTA fixo.
-- Barra de progresso de leitura.
-- Hero mais premium e focado em valor percebido.
-- Planos com destaque visual e hierarquia.
-- Valores e regras preservados conforme contrato.
+Versão codada com direção de arte e copy premium:
+- Texto responde às dúvidas sem formato pergunta e resposta.
+- Tom de continuidade, sem venda fria e sem promessa hipócrita.
+- Reforço de fôlego operacional para investir em base, recrutamento e qualidade.
+- Inclusão de bloco visual “O ajuste certo para continuar melhor”.
+- Métricas: +200 cadastros, confirmação até 15h, parâmetro 70%, nota fiscal sobre taxa de gestão.
+- Preserva planos, valores, regras, acordeões, logo limpo, favicon e Open Graph.
+- Proteção da OE com linguagem de disponibilidade real, aceite dos parceiros e condições da operação.
