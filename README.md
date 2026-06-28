@@ -1,66 +1,41 @@
-# Proposta Bevenutti × Osasco Express — FINAL PREMIUM CORRIGIDA
+# Proposta Bevenutti × Osasco Express - FINAL PARA ENVIO
 
-Versão reconstruída e validada com foco em:
-- Planos visíveis, sem acordeão.
-- Taxas e tabelas extensas em acordeões.
-- Hero limpo com logo correto, sem thumbnails e sem distorção.
-- Imagens em alta resolução para uso web.
-- Contraste corrigido: card claro = texto escuro.
-- Layout mobile-first e notebook-friendly.
-- Conteúdo de continuidade, +200 cadastros, confirmação até 15h, 70% como parâmetro e NF sobre taxa de gestão.
-- Sem asset faltando.
+Pacote blindado para envio à Bevenutti.
 
-Relatório de imagens:
-{
-  "logo-clean.png": [
-    2153,
-    2400
-  ],
-  "pizza-queijo.jpg": [
-    1620,
-    2160
-  ],
-  "pizzas-coca.jpg": [
-    2160,
-    2160
-  ],
-  "embalagem.jpg": [
-    1620,
-    2160
-  ],
-  "doce-mm.jpg": [
-    1620,
-    2160
-  ],
-  "grid-instagram.jpg": [
-    2025,
-    2160
-  ],
-  "hero-logo-card.jpg": [
-    2400,
-    2400
-  ]
-}
+## Conteúdo da entrega
+
+- `index.html` - proposta final premium.
+- `assets/` - imagens e arquivos visuais da proposta.
+- `contratos/contrato-bevenutti-osasco-express.pdf` - contrato oficial final em PDF.
+
+## Contrato oficial
+
+O contrato incluído foi copiado diretamente do arquivo enviado:
+`Contrato_Bevenutti_Osasco_Express_FORMATACAO_PROFISSIONAL_A4_DUPLEX_TEXTO_100_LITERAL.pdf`
+
+Regras aplicadas:
+- PDF mantido 100% literal.
+- Sem conversão.
+- Sem reformatar.
+- Sem DOCX no pacote.
+- Botões da página: abrir PDF e baixar PDF.
+- Documento com 10 páginas, validado por renderização.
+
+## Validação técnica
+
+SHA256 do PDF original:
+8b8dc1296198a8b2d4c3ed22d3b75df0b25259314904e23c3f1465789c9b5a41
+
+SHA256 do PDF dentro do pacote:
+8b8dc1296198a8b2d4c3ed22d3b75df0b25259314904e23c3f1465789c9b5a41
+
+Os hashes iguais comprovam que o PDF do pacote é exatamente o arquivo oficial enviado.
 
 
-## Contrato incluído
+## Lapidação final aplicada
 
-Esta versão contém a pasta `contratos/` com:
-- `contrato-bevenutti-osasco-express.pdf` — abre em nova aba e também pode ser baixado.
-- `contrato-bevenutti-osasco-express.docx` — arquivo Word original para edição/assinatura, se necessário.
-
-Os botões da seção "Contrato final" usam esses caminhos. Não renomear a pasta nem os arquivos.
-
-
-## Contrato oficial atualizado
-
-O contrato correto da Bevenutti consta em:
-- `contratos/contrato-bevenutti-osasco-express.pdf`
-
-Este PDF foi copiado diretamente do arquivo:
-`Contrato_Bevenutti_Osasco_Express_FORMATACAO_PROFISSIONAL_A4_DUPLEX_TEXTO_LITERAL.pdf`
-
-Não foi convertido, reformatado nem recriado. Deve permanecer exatamente como enviado.
-Os botões da página permitem:
-- Abrir PDF em nova aba
-- Baixar PDF
+- CTA final ajustado para "Confirmar continuidade da parceria".
+- Bloco do contrato reescrito em linguagem mais natural para cliente.
+- Menu com "Contrato" destacado.
+- Botões do contrato mantidos: Abrir PDF e Baixar PDF.
+- PDF oficial preservado no pacote.
