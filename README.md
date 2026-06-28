@@ -1,10 +1,14 @@
-# Proposta Bevenutti × Osasco Express — Premium Continuidade
+# Proposta Bevenutti × Osasco Express — FINAL PREMIUM
 
-Versão codada com direção de arte e copy premium:
-- Texto responde às dúvidas sem formato pergunta e resposta.
-- Tom de continuidade, sem venda fria e sem promessa hipócrita.
-- Reforço de fôlego operacional para investir em base, recrutamento e qualidade.
-- Inclusão de bloco visual “O ajuste certo para continuar melhor”.
-- Métricas: +200 cadastros, confirmação até 15h, parâmetro 70%, nota fiscal sobre taxa de gestão.
-- Preserva planos, valores, regras, acordeões, logo limpo, favicon e Open Graph.
-- Proteção da OE com linguagem de disponibilidade real, aceite dos parceiros e condições da operação.
+Versão final premium codada:
+- Hero limpo com logo/card Bevenutti aplicado sem thumbnails sobrepostos.
+- Remoção das fotos pequenas na frente do logo.
+- Correção de contraste preservada.
+- Copy de continuidade e fôlego operacional preservada.
+- Bloco de métricas: +200 cadastros, confirmação até 15h, parâmetro 70%, NF.
+- Acordeões, planos, valores, regras, favicon, manifest e Open Graph preservados.
+- Layout lapidado para celular e notebook.
+- Assets validados sem arquivo faltando.
+
+Observação:
+- Para WhatsApp/preview perfeito em produção, ajustar og:image e og:url para URL absoluta do domínio final.
