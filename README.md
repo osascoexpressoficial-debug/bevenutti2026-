@@ -12,3 +12,6 @@ Versão final da proposta HTML com os ajustes solicitados:
 
 Arquivo principal: `index.html`
 Contrato: `contratos/contrato-bevenutti-osasco-express.pdf`
+
+
+Ajuste final: item Papéis removido do menu. Conteúdo de responsabilidades mantido na página, aberto e fluido, sem accordion e sem chip.
