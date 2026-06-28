@@ -351,6 +351,59 @@ footer{background:#08070B;color:#fff;padding:28px 0}.footer{display:flex;justify
   }
 }
 
+
+/* REVISÃO DE DESTAQUES — sem expor parâmetro sensível */
+.shift-metrics b{
+  font-size:clamp(20px,2.4vw,30px)!important;
+  letter-spacing:-.04em!important;
+}
+.fine-print{
+  margin-top:14px;
+  font-size:11.5px;
+  line-height:1.55;
+  color:#6A5A75;
+  background:rgba(33,11,53,.045);
+  border:1px solid rgba(91,26,166,.10);
+  border-radius:16px;
+  padding:12px 14px;
+}
+.compact-truth{
+  padding-top:34px!important;
+  padding-bottom:36px!important;
+  min-height:0!important;
+}
+.truth-card{
+  max-width:920px;
+  border-radius:28px;
+  padding:28px;
+  background:rgba(255,255,255,.08);
+  border:1px solid rgba(255,255,255,.14);
+  box-shadow:0 24px 60px rgba(0,0,0,.18);
+}
+.truth-card h2{
+  color:#fff;
+  font-size:clamp(28px,4vw,46px);
+}
+.truth-card p:not(.eyebrow){
+  margin-top:12px;
+  color:rgba(255,255,255,.78);
+  line-height:1.72;
+  max-width:820px;
+}
+@media(max-width:640px){
+  .shift-metrics b{
+    font-size:22px!important;
+  }
+  .compact-truth{
+    padding-top:28px!important;
+    padding-bottom:30px!important;
+  }
+  .truth-card{
+    padding:20px;
+    border-radius:22px;
+  }
+}
+
 </style>
 </head>
 <body id="top">
@@ -358,12 +411,11 @@ footer{background:#08070B;color:#fff;padding:28px 0}.footer{display:flex;justify
   <div class="topbar-inner">
     <a class="brand" href="#top"><span class="brand-logo"><img src="assets/logo-clean.png" alt="Logo Bevenutti"></span> Bevenutti <span style="color:#5B1AA6">×</span> Osasco Express</a>
     <div class="nav">
-      <a href="#o-que-muda">O que muda</a>
       <a href="#planos">Planos</a>
       <a href="#valores">Taxas</a>
       <a href="#papeis">Papéis</a>
       <a class="contract-nav" href="#contrato">Contrato</a>
-      <a class="primary" href="#aprovar">Validar</a>
+      <a class="primary" href="#aprovar">Confirmar</a>
     </div>
   </div>
 </nav>
@@ -394,8 +446,8 @@ footer{background:#08070B;color:#fff;padding:28px 0}.footer{display:flex;justify
     <div class="executive-card fade">
       <div class="executive-copy">
         <p class="eyebrow">Resumo para decisão</p>
-        <h2>O que muda na prática</h2>
-        <p>A continuidade formaliza ajustes comerciais, fiscais e operacionais para dar mais fôlego à operação: diária de final de semana atualizada, taxa de gestão, nota fiscal sobre essa taxa e relatórios para conferência das entregas.</p>
+        <h2>Continuidade da parceria</h2>
+        <p>A continuidade organiza a parceria em uma base mais clara: operação, acompanhamento, taxa de gestão, nota fiscal sobre essa taxa e relatórios para conferência das entregas.</p>
       </div>
       <div class="executive-points">
         <div><b>Produto</b><span>Apoio operacional ao delivery.</span></div>
@@ -408,16 +460,21 @@ footer{background:#08070B;color:#fff;padding:28px 0}.footer{display:flex;justify
   <div class="wrap">
     <div class="shift-card fade">
       <div class="shift-copy">
-        <p class="eyebrow">O ajuste certo para continuar melhor</p>
-        <h2>Mais fôlego para cuidar da base, da escala e da qualidade.</h2>
-        <p>A continuidade atualiza a diária de final de semana, formaliza a taxa de gestão, inicia a emissão de nota fiscal sobre essa taxa e mantém relatórios de entregas para conferência. Isso dá mais clareza para a Bevenutti e mais estrutura para a Osasco Express investir em captação, recrutamento e acompanhamento dos parceiros.</p>
+        <p class="eyebrow">Parceria com mais estrutura</p>
+        <h2>Mais clareza, mais estrutura e mais fôlego para a operação seguir melhor.</h2>
+        <p>A continuidade coloca a parceria em um modelo mais organizado, com taxa de gestão, nota fiscal sobre essa taxa, relatórios de entregas para conferência e mais estrutura para a Osasco Express investir em captação, recrutamento e acompanhamento dos parceiros.</p>
       </div>
       <div class="shift-metrics">
-        <div><b>+200</b><span>cadastros na base parceira</span></div>
-        <div><b>15h</b><span>confirmação diária dos parceiros</span></div>
-        <div><b>70%</b><span>parâmetro operacional de planejamento</span></div>
-        <div><b>NF</b><span>nota fiscal sobre a taxa de gestão</span></div>
+        <div><b>Base ativa</b><span>parceiros cadastrados e acionáveis</span></div>
+        <div><b>Confirmação</b><span>acompanhamento diário da escala</span></div>
+        <div><b>Base</b><span>acionamento conforme disponibilidade real</span></div>
+        <div><b>Relatório</b><span>fechamento e conferência da operação</span></div>
       </div>
+      
+<div class="fine-print fade">
+  Parâmetros internos de cobertura, reposição e disponibilidade dependem de aceite dos parceiros, horário, região, clima, volume e segurança operacional. Esses critérios não representam promessa absoluta de cobertura.
+</div>
+
     </div>
   </div>
 </section>
@@ -536,16 +593,17 @@ footer{background:#08070B;color:#fff;padding:28px 0}.footer{display:flex;justify
     </details>
   </div>
 </section>
-<section class="section dark-section">
-  <div class="wrap photo-feature">
-    <div class="quote-card fade">
-      <p class="eyebrow">Sem promessa bonita</p>
-      <h2>A Osasco Express organiza a operação. Sem vender promessa impossível.</h2>
-      <p>A operação de rua depende de fatores externos: disponibilidade dos parceiros, aceite da vaga, horário, região, clima, trânsito, segurança da rota, volume do dia e comportamento da demanda. A diferença está em ter escala semanal, confirmação diária, vaga reaberta, base ativa, captação recorrente e suporte acompanhando a rotina.</p>
+
+<section class="section-tight dark-section compact-truth">
+  <div class="wrap">
+    <div class="truth-card fade">
+      <p class="eyebrow" style="color:#FFD21F">Operação real, sem promessa impossível</p>
+      <h2>A proposta organiza a rua, sem vender garantia absoluta.</h2>
+      <p>A operação depende de fatores externos como disponibilidade dos parceiros, aceite da vaga, horário, região, clima, trânsito, segurança da rota, volume do dia e comportamento da demanda. O valor da Osasco Express está em organizar escala, confirmação, vaga reaberta, base ativa, suporte, registros e fechamento.</p>
     </div>
-    <div class="photo-card fade"><img src="assets/pizzas-coca.jpg" alt="Pizzas Bevenutti com Coca-Cola e identidade urbana" loading="lazy" decoding="async"></div>
   </div>
 </section>
+
 
 <section class="section contract-section" id="contrato">
   <div class="wrap">

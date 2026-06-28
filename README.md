@@ -39,3 +39,20 @@ Os hashes iguais comprovam que o PDF do pacote é exatamente o arquivo oficial e
 - Menu com "Contrato" destacado.
 - Botões do contrato mantidos: Abrir PDF e Baixar PDF.
 - PDF oficial preservado no pacote.
+
+
+## Ajuste final de menu/copy
+
+- Removido o item "O que muda" do menu.
+- Seção reescrita como "Continuidade da parceria".
+- Texto ajustado para não parecer aviso de reajuste.
+- Contrato PDF oficial preservado.
+
+
+## Revisão de destaques
+
+- Removido 70% como destaque visual.
+- Parâmetro operacional passou para nota miúda.
+- Revisados cards de destaque para evitar exposição de números sensíveis.
+- Corrigida área em branco abaixo de papéis operacionais com seção compacta.
+- Menu enxugado para itens realmente necessários.
